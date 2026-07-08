@@ -45,7 +45,7 @@ export default function Contact() {
 
       // Construct WhatsApp link with form details
       const phoneNumber = "918121948341";
-      const messageText = `*New Portfolio Inquiry* 🚀\n\n*Name:* ${form.name}\n*Email:* ${form.email}\n*Company:* ${form.company || "N/A"}\n*Service:* ${form.service}\n*Message:* ${form.message}`;
+      const messageText = `Hi Vamshi, I need your *${form.service}* service. 🚀\n\nHere are my details:\n👤 *Name:* ${form.name}\n✉️ *Email:* ${form.email}\n🏢 *Company:* ${form.company || "N/A"}\n💬 *Message:* ${form.message}`;
       const encodedMessage = encodeURIComponent(messageText);
       const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
