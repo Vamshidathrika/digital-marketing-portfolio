@@ -118,18 +118,18 @@ export default function Hero({ setSelectedProject, hasActiveModal }) {
   return (
     <section id="home" className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center text-left select-none pt-0">
       {/* Left Column: Headline and Pitch */}
-      <div className="lg:col-span-7 space-y-6">
-        <div className="inline-flex items-center gap-2">
-          <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
-          <span className="text-[10px] font-bold tracking-widest text-zinc-450 dark:text-zinc-500 uppercase">
-            Available for partnerships &middot; 2026
+      <div className="lg:col-span-7 space-y-7">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/5 dark:bg-indigo-500/10 border border-indigo-500/10 dark:border-indigo-500/20 text-indigo-600 dark:text-indigo-400 shadow-sm">
+          <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 dark:bg-indigo-400 animate-pulse" />
+          <span className="text-[9px] sm:text-[10px] font-bold tracking-wider uppercase">
+            Creative Head &amp; UI/UX Designer
           </span>
         </div>
 
-        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-zinc-900 dark:text-white leading-[1.05]">
-          Vamshi Krishna<span className="text-blue-500">.</span>
+        <h1 className="text-5xl sm:text-[62px] font-black tracking-tight text-zinc-900 dark:text-white leading-[1.08]">
+          Vamshi Krishna,
           <br />
-          <span className="text-zinc-400 dark:text-zinc-500 min-h-[1.2em] inline-block">
+          <span className="bg-gradient-to-r from-blue-500 via-indigo-500 to-pink-500 dark:from-blue-400 dark:via-violet-400 dark:to-pink-450 bg-clip-text text-transparent min-h-[1.2em] inline-block">
             <span
               className={`inline-block transition-all duration-500 transform ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2'
@@ -140,7 +140,7 @@ export default function Hero({ setSelectedProject, hasActiveModal }) {
           </span>
         </h1>
 
-        <p className="text-base sm:text-lg font-normal tracking-tight text-zinc-600 dark:text-zinc-400 max-w-xl leading-relaxed">
+        <p className="text-sm sm:text-[15px] font-normal tracking-tight text-zinc-500 dark:text-zinc-400 max-w-xl leading-relaxed">
           I build brand identities, edit short-form videos, code custom automation pipelines, and direct advertising campaigns for founders.
         </p>
 
