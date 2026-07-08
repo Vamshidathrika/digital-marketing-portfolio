@@ -354,12 +354,12 @@ export default function Services() {
   return (
     <section id="services" className="space-y-10 text-left select-none">
       {/* Header */}
-      <div className="space-y-2">
-        <h2 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-white">
+      <div className="space-y-3">
+        <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-zinc-900 dark:text-white">
           Offerings
         </h2>
-        <p className="text-sm text-zinc-405 dark:text-zinc-500 max-w-lg">
-          I design visual brand assets, construct automated team pipelines, and direct advertising loops.
+        <p className="text-sm sm:text-base text-zinc-500 dark:text-zinc-400 max-w-2xl leading-relaxed font-normal">
+          I help founders and high-growth startups elevate their digital presence by crafting premium visual brand identities, editing high-impact short-form video assets, and building custom integration pipelines that automate team workflows. By combining creative design with direct-response advertising strategy, I turn brand assets into measurable business growth.
         </p>
       </div>
 
