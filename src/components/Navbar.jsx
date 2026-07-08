@@ -80,7 +80,9 @@ export default function Navbar({ activeSection }) {
         <div className="hidden sm:flex items-center gap-4">
           <ThemeToggle />
           <a
-            href="#resume"
+            href="/resume.html"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-xs font-semibold text-zinc-800 dark:text-zinc-200 hover:underline cursor-pointer"
           >
             Resume
@@ -120,7 +122,9 @@ export default function Navbar({ activeSection }) {
               );
             })}
             <a
-              href="#resume"
+              href="/resume.html"
+              target="_blank"
+              rel="noopener noreferrer"
               className="py-2 text-sm font-semibold text-zinc-850 dark:text-zinc-200"
             >
               Resume
