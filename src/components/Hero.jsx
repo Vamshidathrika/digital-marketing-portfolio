@@ -129,9 +129,9 @@ export default function Hero({ setSelectedProject, hasActiveModal }) {
         <h1 className="text-5xl sm:text-[62px] font-black tracking-tight text-zinc-900 dark:text-white leading-[1.08]">
           Vamshi Krishna,
           <br />
-          <span className="bg-gradient-to-r from-blue-500 via-indigo-500 to-pink-500 dark:from-blue-400 dark:via-violet-400 dark:to-pink-450 bg-clip-text text-transparent min-h-[1.2em] inline-block">
+          <span className="min-h-[1.2em] inline-block">
             <span
-              className={`inline-block transition-all duration-500 transform ${
+              className={`inline-block bg-gradient-to-r from-blue-500 via-indigo-500 to-pink-500 dark:from-blue-400 dark:via-violet-400 dark:to-pink-500 bg-clip-text text-transparent transition-all duration-500 transform ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2'
               }`}
             >
